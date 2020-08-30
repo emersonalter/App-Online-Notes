@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta http-equiv="refresh" content="5" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Dev Note</title>
+  </head>
+  <body>
+    <nav>
+      <img src="img/logo.png" class="logo" />
+      <b>Write</b>
+      <b>|</b>
+      <b>Read</b>
+    </nav>
+    <form>
+      <center>
+        <input id="titulo" type="text" placeholder="Título" />
+        <br />
+        <input id="categoria" type="text" placeholder="Categoria" />
+        <br />
+        <textarea placeholder="Escreva sua anotação"></textarea>
+        <br />
+        <input type="submit" />
+      </center>
+    </form>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
